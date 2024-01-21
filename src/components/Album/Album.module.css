@@ -8,14 +8,14 @@
 .tile{
     height: 200px;
     width: 200px;
-    border: 1px solid red;
+    border: 2px solid cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     border-radius: 5px;
-    background-color: rgba(77, 174, 174, 0.418);
+    background-color: rgba(96, 221, 221, 0.418);
 }
 
 .tile img{
@@ -35,13 +35,14 @@
 }
 
 .form input {
-    height: 40px;
+    height: 42px;
     width: 50%;
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    font-size: 16px;
-    border: 1px solid #ddd;
+    font-size: 19px;
+    /* font-family:'Times New Roman', Times, serif; */
+    border: 2px solid #ddd;
     outline: none; 
 }
 
@@ -50,15 +51,33 @@
     width: 120px;
     border: none;
     border-radius: 10px;
-    background-color: #007BFF; /* Add your preferred button background color */
-    color: #fff; /* Set text color to white or a contrasting color */
+    background-color: #729cc9;
+    columns: #fff;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
 }
 
-/* Add a hover effect for the button */
 .form button:hover {
-    background-color: #0056b3; /* Change color on hover */
+    background-color: #1172da;
 }
 
+.albumBtn {
+    width: fit-content;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #897f79 ;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 70px;
+    left: 80vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .albumBtn:hover {
+    background-color: #9d422b;
+  }

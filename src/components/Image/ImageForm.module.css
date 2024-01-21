@@ -1,0 +1,87 @@
+.albumList{
+    padding: 10% 10px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.tile {
+    border: 2px solid rgba(39, 36, 36, 0.525);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: #236dbc75;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+
+.tile img {
+    min-width: 10vw;
+    height: 30vh; /* Ensure the image takes up 100% of the container height */
+    object-fit: cover;  /* Maintain the aspect ratio and cover the entire container */
+    border-radius: 10px;
+}
+
+
+.tile p{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    outline: none; 
+}
+
+.form button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: #729cc9;
+    columns: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #1172da;
+}
+
+.imageBtn {
+    width: fit-content;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #897f79 ;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 70px;
+    left: 80vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .imageBtn:hover {
+    background-color: #9d422b;
+  }
