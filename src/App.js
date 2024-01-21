@@ -5,7 +5,7 @@ import ImageList from './components/Image/ImageList';
 import { collection, addDoc, getDocs } from "firebase/firestore";
 import { db } from "./firebaseinit";
 import Spinner from 'react-spinner-material';
-import './app.css'
+import './App.css'
 
 function App() {
   const [albums, setAlbums] = useState([]);
